@@ -1,0 +1,1769 @@
+[ Info: connection established
+[ Info: listening...
+[ Info: connection established
+[ Info: listening...
+Academic license - for non-commercial use only
+正在解析算例文件...
+算例文件储存为:90_1.m
+[info | PowerModels]: Suppressing information and warning messages for the rest of this session.  Use the Memento package for more fine-grained control of logging.
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.13s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+
+Barrier performed 3 iterations in 0.29 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.29 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.21s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.16 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.68 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.07s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+  10   3.24008206e+07  3.19657942e+07  1.10e-06 1.13e-10  6.13e+00     0s
+  11   3.23748201e+07  3.20890245e+07  5.04e-07 1.13e-10  4.03e+00     0s
+  12   3.23671670e+07  3.21070825e+07  3.63e-07 2.68e-10  3.66e+00     0s
+  13   3.23506476e+07  3.21254205e+07  2.78e-08 1.71e-10  3.17e+00     0s
+  14   3.23496945e+07  3.22099678e+07  1.80e-08 1.71e-10  1.97e+00     0s
+  15   3.23479664e+07  3.22234833e+07  1.02e-08 1.04e-10  1.75e+00     0s
+
+Barrier performed 15 iterations in 0.28 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.30 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.17s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.15 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.58 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.08s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+
+Barrier performed 9 iterations in 0.27 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.27 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.18s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.15 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.60 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.09s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+  10   3.24008206e+07  3.19657942e+07  1.10e-06 1.13e-10  6.13e+00     0s
+  11   3.23748201e+07  3.20890245e+07  5.04e-07 1.13e-10  4.03e+00     0s
+  12   3.23671670e+07  3.21070825e+07  3.63e-07 2.68e-10  3.66e+00     0s
+  13   3.23506476e+07  3.21254205e+07  2.78e-08 1.71e-10  3.17e+00     0s
+  14   3.23496945e+07  3.22099678e+07  1.80e-08 1.71e-10  1.97e+00     0s
+
+Barrier performed 14 iterations in 0.29 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.29 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.18s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.15 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.60 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.09s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+  10   3.24008206e+07  3.19657942e+07  1.10e-06 1.13e-10  6.13e+00     0s
+  11   3.23748201e+07  3.20890245e+07  5.04e-07 1.13e-10  4.03e+00     0s
+  12   3.23671670e+07  3.21070825e+07  3.63e-07 2.68e-10  3.66e+00     0s
+  13   3.23506476e+07  3.21254205e+07  2.78e-08 1.71e-10  3.17e+00     0s
+  14   3.23496945e+07  3.22099678e+07  1.80e-08 1.71e-10  1.97e+00     0s
+  15   3.23479664e+07  3.22234833e+07  1.02e-08 1.04e-10  1.75e+00     0s
+  16   3.23464875e+07  3.22539268e+07  1.63e-11 1.13e-10  1.30e+00     0s
+  17   3.23448132e+07  3.23300803e+07  5.47e-12 1.04e-10  2.08e-01     0s
+  18   3.23440848e+07  3.23303392e+07  4.37e-12 1.23e-10  1.94e-01     0s
+  19   3.23428107e+07  3.23381067e+07  1.02e-12 1.19e-10  6.63e-02     0s
+
+Barrier performed 19 iterations in 0.34 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.34 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.21s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.16 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.65 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.07s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+  10   3.24008206e+07  3.19657942e+07  1.10e-06 1.13e-10  6.13e+00     0s
+  11   3.23748201e+07  3.20890245e+07  5.04e-07 1.13e-10  4.03e+00     0s
+  12   3.23671670e+07  3.21070825e+07  3.63e-07 2.68e-10  3.66e+00     0s
+  13   3.23506476e+07  3.21254205e+07  2.78e-08 1.71e-10  3.17e+00     0s
+  14   3.23496945e+07  3.22099678e+07  1.80e-08 1.71e-10  1.97e+00     0s
+
+Barrier performed 14 iterations in 0.27 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.27 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.18s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.15 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.62 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.10s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+  10   3.24008206e+07  3.19657942e+07  1.10e-06 1.13e-10  6.13e+00     0s
+  11   3.23748201e+07  3.20890245e+07  5.04e-07 1.13e-10  4.03e+00     0s
+  12   3.23671670e+07  3.21070825e+07  3.63e-07 2.68e-10  3.66e+00     0s
+  13   3.23506476e+07  3.21254205e+07  2.78e-08 1.71e-10  3.17e+00     0s
+  14   3.23496945e+07  3.22099678e+07  1.80e-08 1.71e-10  1.97e+00     0s
+  15   3.23479664e+07  3.22234833e+07  1.02e-08 1.04e-10  1.75e+00     0s
+
+Barrier performed 15 iterations in 0.27 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.27 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.19s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.17 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.65 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.07s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+  10   3.24008206e+07  3.19657942e+07  1.10e-06 1.13e-10  6.13e+00     0s
+  11   3.23748201e+07  3.20890245e+07  5.04e-07 1.13e-10  4.03e+00     0s
+  12   3.23671670e+07  3.21070825e+07  3.63e-07 2.68e-10  3.66e+00     0s
+  13   3.23506476e+07  3.21254205e+07  2.78e-08 1.71e-10  3.17e+00     0s
+  14   3.23496945e+07  3.22099678e+07  1.80e-08 1.71e-10  1.97e+00     0s
+
+Barrier performed 14 iterations in 0.27 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.27 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.21s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.19 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.67 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+Academic license - for non-commercial use only
+Optimize a model with 56865 rows, 35685 columns and 186573 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Warning: Concurrent optimizer requires crossover - forcing it on
+Presolve removed 35952 rows and 13584 columns
+Presolve time: 0.08s
+Presolved: 20913 rows, 28656 columns, 78015 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 69
+ AA' NZ     : 5.534e+04
+ Factor NZ  : 3.401e+05 (roughly 23 MBytes of memory)
+ Factor Ops : 1.144e+07 (less than 1 second per iteration)
+ Threads    : 10
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.10703680e+08 -1.59139275e+09  7.58e+02 6.61e+03  3.15e+05     0s
+   1   2.75062713e+08 -1.51167526e+09  3.75e+02 1.51e+04  1.65e+05     0s
+   2   1.94564413e+08 -1.15468714e+09  2.47e+02 1.56e-08  9.94e+04     0s
+   3   4.46013682e+07 -5.72318852e+08  1.28e+01 2.62e-09  1.15e+04     0s
+   4   3.93531366e+07 -1.16944420e+08  5.29e+00 3.84e-09  2.65e+03     0s
+   5   3.64194674e+07 -5.60240009e+07  2.34e+00 2.44e-09  1.42e+03     0s
+   6   3.52262863e+07 -1.98532944e+07  1.31e+00 1.20e-09  8.15e+02     0s
+   7   3.38922659e+07  1.89912870e+07  1.58e-01 6.94e-10  2.10e+02     0s
+   8   3.30261402e+07  2.97351566e+07  4.81e-03 3.30e-10  4.63e+01     0s
+   9   3.25216348e+07  3.07013493e+07  3.77e-04 2.51e-10  2.56e+01     0s
+  10   3.24008206e+07  3.19657942e+07  1.10e-06 1.13e-10  6.13e+00     0s
+  11   3.23748201e+07  3.20890245e+07  5.04e-07 1.13e-10  4.03e+00     0s
+  12   3.23671670e+07  3.21070825e+07  3.63e-07 2.68e-10  3.66e+00     0s
+  13   3.23506476e+07  3.21254205e+07  2.78e-08 1.71e-10  3.17e+00     0s
+  14   3.23496945e+07  3.22099678e+07  1.80e-08 1.71e-10  1.97e+00     0s
+
+Barrier performed 14 iterations in 0.27 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 7812 iterations and 0.28 seconds
+Optimal objective  3.234158514e+07
+Optimize a model with 63489 rows, 35685 columns and 199821 nonzeros
+Variable types: 33093 continuous, 2592 integer (2592 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 3e+01]
+  Objective range  [5e-02, 4e+03]
+  Bounds range     [5e-01, 2e+02]
+  RHS range        [5e-01, 2e+02]
+Presolve removed 38196 rows and 21198 columns
+Presolve time: 0.19s
+Presolved: 25293 rows, 14487 columns, 83043 nonzeros
+Variable types: 12013 continuous, 2474 integer (2474 binary)
+
+Root relaxation: objective 3.234159e+07, 10142 iterations, 0.16 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.2342e+07    0   75          - 3.2342e+07      -     -    0s
+H    0     0                    3.234159e+07 3.2342e+07  0.00%     -    0s
+
+Explored 1 nodes (11589 simplex iterations) in 0.60 seconds
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 3.23416e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.234158784129e+07, best bound 3.234158530349e+07, gap 0.0000%
+
+signal (15): Terminated
+in expression starting at /home/cxlab/syh/repo/PSJULIA/scuc_svc.jl:322
+unknown function (ip: 0x7fb06992b4d8)
+uv__epoll_wait at /tmp/srccache/libuv-ed3700c849289ed01fe04273a7bf865340b2bd7e/src/unix/linux-syscalls.c:321
+uv__io_poll at /tmp/srccache/libuv-ed3700c849289ed01fe04273a7bf865340b2bd7e/src/unix/linux-core.c:275
+uv_run at /tmp/srccache/libuv-ed3700c849289ed01fe04273a7bf865340b2bd7e/src/unix/core.c:360
+process_events at ./libuv.jl:98 [inlined]
+wait at ./event.jl:246
+wait at ./event.jl:46
+stream_wait at ./stream.jl:47
+wait at ./event.jl:375 [inlined]
+sleep at ./event.jl:429 [inlined]
+process at /home/cxlab/syh/repo/PSJULIA/scuc_svc.jl:24
+#31 at ./task.jl:259
+jl_fptr_trampoline at /buildworker/worker/package_linux64/build/src/gf.c:1809
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+start_task at /buildworker/worker/package_linux64/build/src/task.c:268
+unknown function (ip: 0xffffffffffffffff)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 170807914 (Pool: 170766973; Big: 40941); GC: 398
+[ Info: connection established
+[ Info: listening...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+┌ Warning: `range(start, stop)` (with neither `length` nor `step` given) is deprecated, use `range(start, stop=stop)` instead.
+│   caller = GetEconomicalRegion(::Dict{String,Any}, ::String) at scuc_svc.jl:61
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:61
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+┌ Info: 收到计算请求，置信度为：90
+└ 风电消纳指标权重为:0.2
+[ Info: 开始计算经济运行域:
+┌ Warning: 机组Int64[] 参数缺失
+└ @ Main ~/syh/repo/PSJULIA/scuc_svc.jl:56
+[ Info: constraints of time1 constructed
+[ Info: constraints of time2 constructed
+[ Info: constraints of time3 constructed
+[ Info: constraints of time4 constructed
+[ Info: constraints of time5 constructed
+[ Info: constraints of time6 constructed
+[ Info: constraints of time7 constructed
+[ Info: constraints of time8 constructed
+[ Info: constraints of time9 constructed
+[ Info: constraints of time10 constructed
+[ Info: constraints of time11 constructed
+[ Info: constraints of time12 constructed
+[ Info: constraints of time13 constructed
+[ Info: constraints of time14 constructed
+[ Info: constraints of time15 constructed
+[ Info: constraints of time16 constructed
+[ Info: constraints of time17 constructed
+[ Info: constraints of time18 constructed
+[ Info: constraints of time19 constructed
+[ Info: constraints of time20 constructed
+[ Info: constraints of time21 constructed
+[ Info: constraints of time22 constructed
+[ Info: constraints of time23 constructed
+[ Info: constraints of time24 constructed
+[ Info: constraints of time25 constructed
+[ Info: constraints of time26 constructed
+[ Info: constraints of time27 constructed
+[ Info: constraints of time28 constructed
+[ Info: constraints of time29 constructed
+[ Info: constraints of time30 constructed
+[ Info: constraints of time31 constructed
+[ Info: constraints of time32 constructed
+[ Info: constraints of time33 constructed
+[ Info: constraints of time34 constructed
+[ Info: constraints of time35 constructed
+[ Info: constraints of time36 constructed
+[ Info: constraints of time37 constructed
+[ Info: constraints of time38 constructed
+[ Info: constraints of time39 constructed
+[ Info: constraints of time40 constructed
+[ Info: constraints of time41 constructed
+[ Info: constraints of time42 constructed
+[ Info: constraints of time43 constructed
+[ Info: constraints of time44 constructed
+[ Info: constraints of time45 constructed
+[ Info: constraints of time46 constructed
+[ Info: constraints of time47 constructed
+[ Info: constraints of time48 constructed
+[ Info: constraints of time49 constructed
+[ Info: constraints of time50 constructed
+[ Info: constraints of time51 constructed
+[ Info: constraints of time52 constructed
+[ Info: constraints of time53 constructed
+[ Info: constraints of time54 constructed
+[ Info: constraints of time55 constructed
+[ Info: constraints of time56 constructed
+[ Info: constraints of time57 constructed
+[ Info: constraints of time58 constructed
+[ Info: constraints of time59 constructed
+[ Info: constraints of time60 constructed
+[ Info: constraints of time61 constructed
+[ Info: constraints of time62 constructed
+[ Info: constraints of time63 constructed
+[ Info: constraints of time64 constructed
+[ Info: constraints of time65 constructed
+[ Info: constraints of time66 constructed
+[ Info: constraints of time67 constructed
+[ Info: constraints of time68 constructed
+[ Info: constraints of time69 constructed
+[ Info: constraints of time70 constructed
+[ Info: constraints of time71 constructed
+[ Info: constraints of time72 constructed
+[ Info: constraints of time73 constructed
+[ Info: constraints of time74 constructed
+[ Info: constraints of time75 constructed
+[ Info: constraints of time76 constructed
+[ Info: constraints of time77 constructed
+[ Info: constraints of time78 constructed
+[ Info: constraints of time79 constructed
+[ Info: constraints of time80 constructed
+[ Info: constraints of time81 constructed
+[ Info: constraints of time82 constructed
+[ Info: constraints of time83 constructed
+[ Info: constraints of time84 constructed
+[ Info: constraints of time85 constructed
+[ Info: constraints of time86 constructed
+[ Info: constraints of time87 constructed
+[ Info: constraints of time88 constructed
+[ Info: constraints of time89 constructed
+[ Info: constraints of time90 constructed
+[ Info: constraints of time91 constructed
+[ Info: constraints of time92 constructed
+[ Info: constraints of time93 constructed
+[ Info: constraints of time94 constructed
+[ Info: constraints of time95 constructed
+[ Info: constraints of time96 constructed
+[ Info: startup_cost constructed
+[ Info: fuel_cost constructed
+[ Info: hydro_cost constructed
+[ Info: runcost constructed
+[ Info: agc_cost constructed
+[ Info: interval_cost constructed
+[ Info: CO2Emission constructed
+[ Info: windCur constructed
+[ Info: objective constructed
+[ Info: 建模完毕，首先进行松弛计算...
+[ Info: 松弛计算完毕，缩小机组启停寻优范围...
+[ Info: 必开机组数量为14
+[ Info: 必关机组数量为28
+[ Info: 开始完整计算...
+正在解析算例文件...
+算例文件储存为:90_1.m
+正在解析算例文件...
+算例文件储存为:90_1.m
+正在解析算例文件...
+算例文件储存为:90_1.m
+正在解析算例文件...
+算例文件储存为:90_1.m
+正在解析算例文件...
+算例文件储存为:90_1.m
+正在解析算例文件...
+算例文件储存为:90_1.m
+正在解析算例文件...
+算例文件储存为:90_1.m
+正在解析算例文件...
+算例文件储存为:90_1.m
